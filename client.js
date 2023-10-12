@@ -1,0 +1,1 @@
+document.body.append(`<p>it's my web page</p>`)
