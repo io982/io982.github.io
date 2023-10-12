@@ -1,1 +1,1 @@
-document.body.append(`<p>it's my web page</p>`)
+document.body.insertAdjacentHTML('beforeend', `<p>it's my web page</p>`)
