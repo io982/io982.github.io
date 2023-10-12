@@ -10,3 +10,7 @@ app.listen(port, () => {
 app.get('/', (req, res) => {
     res.sendFile('index.html', { root: ROOT });
  })
+
+ app.get('/client.js', (req, res) => {
+    res.sendFile('client.js', { root: ROOT });
+  })
